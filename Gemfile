@@ -17,6 +17,7 @@ gem 'turbolinks', '2.3.0'
 gem 'jbuilder', '2.2.3'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '0.4.0', group: :doc
+gem 'arel', '6.0.0.beta2'
 
 
 # gem 'therubyracer', platforms: :ruby
@@ -48,4 +49,4 @@ group :production do
 end
 
 # Call 'debugger' anywhere in the code to stop execution and get a debugger console
-gem 'debugger'
+# gem 'debugger'
